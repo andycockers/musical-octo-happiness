@@ -1,3 +1,14 @@
 apiVersion: v1
-entries: {}
-generated: "2022-10-07T10:34:50.120441808+01:00"
+entries:
+  arnie:
+  - apiVersion: v2
+    appVersion: version-1.0.0
+    created: "2022-10-07T10:42:08.41504107+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 5cdf4a957e862e9d5824cce8f07c5211588ab15f49fea7db9c71f734eb1b875f
+    name: arnie
+    type: application
+    urls:
+    - https://github.com/andycockers/musical-octo-happiness/arnie-0.0.6.tgz
+    version: 0.0.6
+generated: "2022-10-07T10:42:08.414652836+01:00"

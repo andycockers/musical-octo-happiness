@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.name }}
+  template:
+    metadata:
+      labels: 
+        app: {{ .Values.name }}
+    spec:
+      containers:
+      - name: {{ .Values.name }}
+        image: {{ .Values.image }}:{{ .Values.tag }}
+        ports:
+        - containerPort: 4533
+        volumeMounts:
+        - name: music
+          mountPath: /music
+        - name: data
+          mountPath: /data
+        env:
+        - name: PUID
+          value: "1000"
+        - name: PGID
+          value: "1000"
+        - name: ND_ENABLEDOWNLOADS
+          value: "false"
+        - name: ND_SCANSCHEDULE
+          value: "0"
+        - name: ND_ENABLETRANSCODINGCONFIG
+          value: "false"
+        - name: ND_LASTFM_ENABLED
+          value: "false"
+        - name: ND_LISTENBRAINZ_ENABLED
+          value: "false"
+      volumes:
+      - hostPath:
+          path: {{ .Values.music_path }}
+        name: music
+      - hostPath:
+          path: {{ .Values.data_path }}
+        name: data

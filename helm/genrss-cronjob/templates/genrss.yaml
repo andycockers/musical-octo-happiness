@@ -1,0 +1,21 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: {{ .Values.name }}
+spec:
+  schedule: "15 * * * *"
+  jobTemplate:
+    spec:
+     template:
+       spec:
+         containers:
+         - name: {{ .Values.name }}
+           image: {{ .Values.image }}:{{ .Values.tag }}
+           volumeMounts:
+           - name: www
+             mountPath: /var/www
+         volumes:
+         - hostPath:
+             path: {{ .Values.www_path }}
+           name: www
+         restartPolicy: OnFailure

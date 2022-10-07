@@ -1,0 +1,6 @@
+---
+image: calmmopey/genrss-arm64
+tag: latest
+name: genrss-cronjob
+namespace: genrss-cronjob
+www_path: /mnt/pvr/podcast

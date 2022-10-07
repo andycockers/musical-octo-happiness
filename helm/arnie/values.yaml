@@ -1,0 +1,6 @@
+---
+image: calmmopey/arnie
+tag: 0.0.7
+name: arnie-helm
+namespace: arnie-helm
+config_path: /data/arnie

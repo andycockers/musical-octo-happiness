@@ -1,0 +1,7 @@
+---
+image: calmmopey/get-iplayer
+tag: 4
+name: get-iplayer
+namespace: get-iplayer
+output_path: /data/get-iplayer
+pvr_path: /mnt/pvr/podcast

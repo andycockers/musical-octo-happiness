@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.name }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ .Values.name }}
+  template:
+    metadata:
+      labels: 
+        app: {{ .Values.name }}
+    spec:
+      containers:
+      - name: {{ .Values.name }}
+        image: {{ .Values.image }}:{{ .Values.tag }}
+        volumeMounts:
+        - name: output
+          mountPath: /output
+        - name: pvr
+          mountPath: /opt
+      volumes:
+      - hostPath:
+          path: {{ .Values.output_path }}
+        name: output
+      - hostPath:
+          path: {{ .Values.pvr_path }}
+        name: pvr

@@ -1,0 +1,10 @@
+---
+image: calmmopey/basichttpserver-arm64
+tag: latest
+name: basichttpserver
+namespace: basichttpserver
+host: pod.crabdance.com
+secret: pod-tls
+ingress: "nginx"
+cert_manager: "letsencrypt-prod"
+www_path: /mnt/pvr/podcast

@@ -1,0 +1,10 @@
+image: deluan/navidrome
+tag: latest
+name: navidrome
+namespace: navidrome
+data_path: /data/navidrome
+music_path: /mnt/flac
+host: navidrome.crabdance.com
+secret: navidrome-helm-tls
+ingress: "nginx"
+cert_manager: "letsencrypt-prod"

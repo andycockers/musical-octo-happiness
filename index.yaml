@@ -3,12 +3,23 @@ entries:
   arnie:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-07T10:42:08.41504107+01:00"
+    created: "2022-10-07T11:08:55.764284779+01:00"
     description: A Helm chart for Kubernetes
     digest: 5cdf4a957e862e9d5824cce8f07c5211588ab15f49fea7db9c71f734eb1b875f
     name: arnie
     type: application
     urls:
-    - https://github.com/andycockers/musical-octo-happiness/arnie-0.0.6.tgz
+    - https://andycockers.github.io/musical-octo-happiness/arnie-0.0.6.tgz
     version: 0.0.6
-generated: "2022-10-07T10:42:08.414652836+01:00"
+  basichttpserver:
+  - apiVersion: v2
+    appVersion: version-1.0.0
+    created: "2022-10-07T11:08:55.764487774+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 43d7fab0e4740e94faf63b54bdf490573c92ab2c3ddc57030e162bd880dce34d
+    name: basichttpserver
+    type: application
+    urls:
+    - https://andycockers.github.io/musical-octo-happiness/basichttpserver-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-10-07T11:08:55.763931082+01:00"

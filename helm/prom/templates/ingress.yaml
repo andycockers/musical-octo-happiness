@@ -1,0 +1,24 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ .Values.name }}
+  annotations:
+    # use the shared ingress-nginx
+    kubernetes.io/ingress.class: {{ .Values.ingress }}
+    cert-manager.io/cluster-issuer: {{ .Values.cert_manager }}
+spec:
+  tls:
+  - hosts:
+    - {{ .Values.host }}
+    secretName: {{ .Values.secret }}
+  rules:
+  - host: {{ .Values.host }}
+    http:
+      paths:
+      - path: /
+        pathType: ImplementationSpecific
+        backend:
+         service:
+          name: {{ .Values.name }}
+          port:
+           number: 80

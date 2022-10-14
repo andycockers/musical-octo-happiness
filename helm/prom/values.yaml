@@ -1,0 +1,10 @@
+---
+image: prom/prometheus
+tag: latest
+name: prom
+namespace: prom
+host: prom.uk.to
+secret: prom-tls
+ingress: "nginx"
+cert_manager: "letsencrypt-prod"
+config_path: /data/prom

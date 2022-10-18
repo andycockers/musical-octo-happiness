@@ -3,7 +3,7 @@ entries:
   arnie:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.564644578Z"
+    created: "2022-10-18T09:11:07.984789564Z"
     description: A Helm chart for Kubernetes
     digest: bcd7175fff3271335225bac8ecbcd7d3186dcf10f4f7835db185ebe3e443d3ca
     name: arnie
@@ -13,7 +13,7 @@ entries:
     version: 0.0.7
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.564085257Z"
+    created: "2022-10-18T09:11:07.984618683Z"
     description: A Helm chart for Kubernetes
     digest: 5cdf4a957e862e9d5824cce8f07c5211588ab15f49fea7db9c71f734eb1b875f
     name: arnie
@@ -24,7 +24,7 @@ entries:
   basichttpserver:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.564892859Z"
+    created: "2022-10-18T09:11:07.984979084Z"
     description: A Helm chart for Kubernetes
     digest: 43d7fab0e4740e94faf63b54bdf490573c92ab2c3ddc57030e162bd880dce34d
     name: basichttpserver
@@ -35,7 +35,7 @@ entries:
   genrss-cronjob:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.565047339Z"
+    created: "2022-10-18T09:11:07.985515446Z"
     description: A Helm chart for Kubernetes
     digest: 5b13851039797420e11908a8e42c92fbf604aa5a1c3f72906a78cb03ab96bdd5
     name: genrss-cronjob
@@ -46,7 +46,7 @@ entries:
   get-iplayer:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.565333499Z"
+    created: "2022-10-18T09:11:07.986019247Z"
     description: A Helm chart for Kubernetes
     digest: adc31896895b8b0cd77757a9c44489904eb0558e0e2ed57bc4054e6c8ee08fef
     name: get-iplayer
@@ -56,7 +56,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.565189259Z"
+    created: "2022-10-18T09:11:07.985731406Z"
     description: A Helm chart for Kubernetes
     digest: 3d92223406c0761ab96e59618e2bcbc4d257d16bdd2fee202ee9cdf28162239c
     name: get-iplayer
@@ -67,7 +67,7 @@ entries:
   mariadb:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.565499139Z"
+    created: "2022-10-18T09:11:07.986230048Z"
     description: A Helm chart for Kubernetes
     digest: 3d8466aa8058f33b21e21f6db423d28ef1b8a21fba3731ec88ebe48002e327c2
     name: mariadb
@@ -78,7 +78,7 @@ entries:
   navidrome:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-10-18T08:50:50.56589054Z"
+    created: "2022-10-18T09:11:07.98727697Z"
     description: A Helm chart for Kubernetes
     digest: d191bd539f107a4e5f54316225c744daca9cb72230cf0d90aea9716f16ab8597
     name: navidrome
@@ -88,7 +88,7 @@ entries:
     version: 0.0.6
   - apiVersion: v2
     appVersion: latest
-    created: "2022-10-18T08:50:50.56570362Z"
+    created: "2022-10-18T09:11:07.986643969Z"
     description: A Helm chart for Kubernetes
     digest: 8c5877430353cc94446da0e279d04f9ec67ccb8acc777e63d70692163b557217
     name: navidrome
@@ -99,7 +99,7 @@ entries:
   prom:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.56605306Z"
+    created: "2022-10-18T09:11:07.987605011Z"
     description: A Helm chart for Kubernetes
     digest: c01c70d5087156761270ab347244762ac31f429a1ffff8aada8a4866025ece97
     name: prom
@@ -110,7 +110,17 @@ entries:
   santa-circles:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.56623206Z"
+    created: "2022-10-18T09:11:07.987967692Z"
+    description: A Helm chart for Kubernetes
+    digest: c43b5ad1dec1214c3cc09814b83d90cf9cbe35aac910cbd43e05cc288ae45558
+    name: santa-circles
+    type: application
+    urls:
+    - https://andycockers.github.io/musical-octo-happiness/santa-circles-0.0.2.tgz
+    version: 0.0.2
+  - apiVersion: v2
+    appVersion: version-1.0.0
+    created: "2022-10-18T09:11:07.987789652Z"
     description: A Helm chart for Kubernetes
     digest: c677ab4d42349f6e759b82e861851dddd622a84cb84348401340b802b2bacf6f
     name: santa-circles
@@ -121,7 +131,7 @@ entries:
   santa-circles-api:
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.566669901Z"
+    created: "2022-10-18T09:11:07.988475734Z"
     description: A Helm chart for Kubernetes
     digest: ac88fb9feac49796d0d67b6bee7224f3b63fcc6264ee524d2253267d66788c32
     name: santa-circles-api
@@ -131,7 +141,7 @@ entries:
     version: 0.0.3
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.566507661Z"
+    created: "2022-10-18T09:11:07.988329813Z"
     description: A Helm chart for Kubernetes
     digest: ed9eb92badf016449735cc871e58e7a3ef03b4524e9b1eb5a021b9302865d527
     name: santa-circles-api
@@ -141,7 +151,7 @@ entries:
     version: 0.0.2
   - apiVersion: v2
     appVersion: version-1.0.0
-    created: "2022-10-18T08:50:50.566368981Z"
+    created: "2022-10-18T09:11:07.988175773Z"
     description: A Helm chart for Kubernetes
     digest: d93240d22e5c8d2b88aa6b1f771bd95021c3b53ebc200a01eecfdda8533bb233
     name: santa-circles-api
@@ -149,4 +159,4 @@ entries:
     urls:
     - https://andycockers.github.io/musical-octo-happiness/santa-circles-api-0.0.1.tgz
     version: 0.0.1
-generated: "2022-10-18T08:50:50.562479135Z"
+generated: "2022-10-18T09:11:07.984211482Z"
